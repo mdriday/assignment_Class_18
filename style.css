@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 1180px;
+    margin: auto;
+}
+.mainmenu{
+    background-color: black;
+    text-align: center;
+}
+.mainmenu ul{}
+.mainmenu ul li{
+    display: inline-block;
+    margin-left: -4px;
+}
+.mainmenu ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color: #f9f9f9;
+    font-size: 20px;
+    padding: 15px 25px;
+    font-weight: 600;
+    transition: .6s;
+}
+.mainmenu ul li a:hover{
+    background-color: #34495e;
+}
+
+h2{
+    background-color: #dff9fb;
+    text-align: center;
+    padding: 20px 0;
+
+}
+.banner{
+    background-image: url(https://i.ibb.co/7gQ4vW0/pc-desk-wallpaper-3554x1999.jpg);
+    width: 1180px;
+    background-position: center center;
+    background-size: cover;
+    height: 550px;
+
+}
+.listdiv {
+	text-align: center;
+	padding: 150px 0;
+	
+}
+/* list1 */
+.listdiv .ul1 {
+	list-style: none;
+	background-color: black;
+	display: inline-block;
+	padding: 14px 20px;
+    margin-right: 50px;
+    cursor: pointer;
+ 
+}
+.listdiv .ul1 li {
+	font-size: 25px;
+	color: white;
+	line-height: 34px;
+}
+.listdiv .ul1 li::before{
+    content: '\f35a';
+    font-weight: 600;
+    font-family: "Font Awesome 5 Free";
+    margin-right: 10px;
+}
+
+/* list2 */
+.listdiv .ul2{
+    list-style: none;
+    background-color: black;
+    display: inline-block; 
+    padding: 14px 20px;
+    margin-right: 50px;
+    cursor: pointer;
+ 
+ 
+}
+.listdiv .ul2 li {
+	font-size: 25px;
+	color: white;
+	line-height: 34px;
+}
+.listdiv .ul2 li::before{
+    content: '\f101';
+    font-family: "Font Awesome 5 free";
+    font-weight: 600;
+    margin-right: 10px;
+}
+.listdiv .ul2 li::after{
+    content: '\f5d0';
+    font-family: "Font Awesome 5 free";
+    font-weight: 900;
+    margin-left: 10px;
+}
+
+/* list3 */
+.listdiv .ul3{
+    list-style: none;
+    background-color: black;
+    display: inline-block; 
+    padding: 14px 20px;
+    cursor: pointer;
+ 
+}
+.listdiv .ul3 li {
+	font-size: 25px;
+	color: white;
+	line-height: 34px;
+}
+.listdiv .ul3 li::before{
+    content: '\f00c';
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    margin-right: 10px;
+
+}
+.ul3:hover::before li{
+    color: yellow;
+}
+/* Fotter Section */
+
+.fotter{
+    background-color: black;
+    padding: 30px 0;
+    text-align: center;
+}
+.f-icon{
+    
+}
+.f-icon a{
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    color: rgb(0, 0, 0);
+    background-color: cornflowerblue;
+    font-size: 20px;
+    margin-right: 10px;
+    transition: .6s;
+    display: inline-block;
+}
+    .f-icon a:hover{
+    background-color: #fff;
+    color: crimson;
+    }
+p{
+    color: #f9f9f9;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
